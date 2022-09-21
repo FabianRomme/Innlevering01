@@ -17,6 +17,8 @@
 		29F6E2AA28CB3F8B00A27195 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6E28028CB3F8A00A27195 /* ContentView.swift */; };
 		29F6E2AB28CB3F8B00A27195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F6E28128CB3F8B00A27195 /* Assets.xcassets */; };
 		29F6E2AC28CB3F8B00A27195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F6E28128CB3F8B00A27195 /* Assets.xcassets */; };
+		29F6E2BC28CB42B400A27195 /* Button.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6E2BB28CB42B400A27195 /* Button.View.swift */; };
+		29F6E2BD28CB42B400A27195 /* Button.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6E2BB28CB42B400A27195 /* Button.View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		29F6E29F28CB3F8B00A27195 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F6E2A328CB3F8B00A27195 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		29F6E2A528CB3F8B00A27195 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		29F6E2BB28CB42B400A27195 /* Button.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				29F6E27F28CB3F8A00A27195 /* KalkulatorApp.swift */,
 				29F6E28028CB3F8A00A27195 /* ContentView.swift */,
+				29F6E2BB28CB42B400A27195 /* Button.View.swift */,
 				29F6E28128CB3F8B00A27195 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				29F6E2A928CB3F8B00A27195 /* ContentView.swift in Sources */,
 				29F6E2A728CB3F8B00A27195 /* KalkulatorApp.swift in Sources */,
+				29F6E2BC28CB42B400A27195 /* Button.View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				29F6E2AA28CB3F8B00A27195 /* ContentView.swift in Sources */,
 				29F6E2A828CB3F8B00A27195 /* KalkulatorApp.swift in Sources */,
+				29F6E2BD28CB42B400A27195 /* Button.View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
